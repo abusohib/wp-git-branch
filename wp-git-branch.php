@@ -1,14 +1,14 @@
 <?php
 /**
- * @package   	      Ninja Forms Signature Contract Add-On
- * @contributors      Abu Shoaib (Approve Me)
+ * @package   	      Wordpress git
+ * @contributors      Abu Sohib (Approve Me)
  * @wordpress-plugin
  * Plugin Name:       Wordpress git branch.  
- * Plugin URI:        http://aprv.me/2ko4gfL
+ * Plugin URI:        https://www.approveme.com
  * Description:       This plugin help you to display git branch information in plugins page for wordpress.
  * Version:           1.0
  * Author:            Abu Sohib
- * Author URI:        http://aprv.me/2ko4gfL
+ * Author URI:        https://www.approveme.com
  */
 // If this file is called directly, abort.
 if (!defined('WPINC')) {
