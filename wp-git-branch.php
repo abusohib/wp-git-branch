@@ -32,7 +32,8 @@ function wgb_plugins_meta($plugin_meta, $plugin_file, $plugin_data, $status){
 
     $gitBranchName = rtrim(preg_replace("/(.*?\/){2}/", '', $gitStr));
 
-    $plugin_meta[] = '<span style="color:red;font-weight:bold;"> Git Branch : </span> ' . $gitBranchName ; 
+    $plugin_meta[] = '<span style="color:red;font-weight:bold;"> Git Branch : </span> ' . $gitBranchName ;
 
+    $plugin_meta[] = '<a target="_blank" class="thickbox open-plugin-details-modal" href="' . esc_url(plugins_url('change-git-branch.php?pluginName='.$plugin_data['Name'] . '&folderName='. $fileInfo[0] , __FILE__)) . '"> Change Branch </a>';
     return $plugin_meta;
 }
