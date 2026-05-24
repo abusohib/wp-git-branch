@@ -1,0 +1,6 @@
+# Allow the web server to run git as the repository owner (checkout from WP admin).
+# Install: sudo cp sudoers.example /etc/sudoers.d/wp-git-branch && sudo chmod 440 /etc/sudoers.d/wp-git-branch
+#
+# Replace "abu" with your deploy user if different.
+
+www-data ALL=(abu) NOPASSWD: /usr/bin/git
